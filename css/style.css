@@ -1,0 +1,407 @@
+body {
+    height: auto;
+}
+
+/************* NAVICATION BAR **********/
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    transition: all 0.6s;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f9461d;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    transition: all 0.6s;
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+    color: #f9461d ;
+    
+}
+/************* COVER **********/
+.header {
+    background-image: url(../images/bg-parallax.jpg);
+    height: auto;
+    background-size: cover;
+    padding-top: 56px;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.caption {
+    padding-top: 148px;
+    margin-bottom: 148px;
+}
+
+.divnder {
+    width: 50px;
+    height: 5px;
+    background-color: #f9461d;
+    margin: 20px auto;
+}
+
+.caption .btn-outline-warning {
+    color: #f9461d;
+    border-color: #f9461d;
+    padding: 10px 50px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.caption .btn-outline-warning:hover {
+    background-color: #f9461d;
+    color: #fff;
+}
+/************* CAPTION CENTER **********/
+.caption-center {
+    margin: 150px auto;
+}
+
+.caption-center p {
+    font-size: 20px;
+}
+/************* ABOUT **********/
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about .btn-warning {
+    background-color: #f9461d;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+.about .carousel-indicators {
+    position: static;
+    
+}
+
+.about .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #f9461d;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.about .carousel-indicators li.active {
+    background-color: #f9461d;
+}
+/************* FUN FACTS **********/
+.fun-facts {
+    background-image: url(../images/bg-contact.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;    
+}
+
+.fun-facts .cover {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.fun-facts .cover i {
+    color: #f9461d;
+}
+/************* WHY US **********/
+.why-us {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.why-us i {
+    padding: 12px;
+    background-color: #f9461d;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.why-us h5 {
+    letter-spacing: 3px;
+}
+/************* OUR MAIN SKILLS **********/
+.our-main-skills {
+    background-image: url(../images/website-two.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.our-main-skills  .cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.exprtes .item {margin-top: 40px; text-align: center;}
+.circle-1 {position: relative;}
+.circle-2 {position: relative;}
+.circle-1 span {position: absolute;font-size: 25px;font-weight: bold;top: 50%;left:50%;transform: translate(-50%,-50%)}
+.circle-2 span {position: absolute;font-size: 25px;font-weight: bold;top: 50%;left:50%;transform: translate(-50%,-50%)}
+/************* OUR SERVICES **********/
+.our-services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.light {
+    position: relative;
+}
+
+.heart {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    width: 1px;
+    height: 250px;
+    background-color: #f9461d;
+    right: 0;
+    bottom: 15px;  
+    border-radius: 50%;
+}
+
+.services {
+    margin-bottom: 60px;
+}
+
+.our-services i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #f9461d;
+    margin-bottom: 10px;
+    color: #f9461d;
+    border-radius: 50%;
+}
+/************* QUOTE **********/
+.quote {
+    background-image: url(../images/bg-quote.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.quote .cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.colormain {
+    color: #f9461d;
+}
+/************* OUR GALLERY **********/
+.our-gallery {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+/*
+.cover-item {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    color: #eee;
+    line-height: 260px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: none;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
+.gallery-item:hover .cover-item  {
+    display: inline-block;
+}
+*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #f9461d;
+}
+
+
+/************* KEEP IN TOUCH **********/
+.keep-in-touch {
+    background-image: url(../images/bg-keep-in-touch.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #eee;
+}
+
+.keep-in-touch .cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.keep-in-touch .keep-item {
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+.keep-in-touch .keep-item:hover {
+    color: #f9461d;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+/************* MEET THE TEAM **********/
+.the-team {padding-top: 100px;padding-bottom: 100px;}
+.the-team img {margin-bottom: 10px;}
+/************* TEAM SLIDER **********/
+.team-slider {padding-top: 100px;padding: 100px;}
+.team-slider .carousel-indicators {position: static;}
+.team-slider .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #f9461d;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.team-slider .carousel-indicators li.active {
+    background-color: #f9461d;
+}
+/************* OUR PRICING **********/
+.box-black {
+    background-color: black;
+    color: #fff;
+    border-bottom: 4px solid #f9461d;
+    border-top: 4px solid #f9461d;
+    position: relative;
+}
+.box-black .do {position: absolute;font-size: 25px;}
+.box-black p {color: #beb8b8;}
+.btn-warning {
+    color: #fff;
+    background-color: #f9461d;
+    border-color: #f9461d;
+    border-radius: 0;
+    font-size: 20px;
+}
+.btn-warning:hover {
+    color: #fff;
+    background-color: #fa5d39;
+    border-color: #fa5d39;
+}
+.btn-warning:not(:disabled):not(.disabled).active,
+.btn-warning:not(:disabled):not(.disabled):active,
+.show>.btn-warning.dropdown-toggle {
+    color: #fff;
+    background-color: #fa5d39;
+    border-color: #fa5d39;
+}
+/************* GOMING SOON **********/
+.coming-soon {
+    background-image: url(../images/bg-coming-soon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 100px;
+}
+.coming-soon .cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.coming-line {
+    width: 133px;
+    height: 3px;
+    background-color: #f9461d;
+}
+
+#demo {padding: 10px;font-size: 55px;letter-spacing: 15px;color: #ea451e;}
+/************* OUR HISTORY **********/
+.timeline {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    background-color: #000;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 50%;
+}
+.size {width: 50%;padding: 10px 30px;position: relative;}
+.size::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #ea451e;
+    right: -10px;
+    z-index: 9;
+    top: 22px;
+}
+.content {background-color: #fff;padding: 20px; 30px;}
+.left {left: 0;}
+.right {left: 50%;}
+.right::after {left: -16px;}
+@media(max-width:600px){.timeline::after {left: 20px;}.size::after {left: 5px;}.right {left: 0;}.left::before {left: 10px;top: 20px;border-right: 10px solid #fff;border-left: 10px solid transparent;border-top: 10px solid transparent;border-bottom: 10px solid transparent;}.size{width: 100%;padding-right: 5px;}}
+.linetime {
+    width: 40px;
+    height: 4px;
+    background-color: #f9461d;
+}
+/************* GET IN TOUCH **********/
+.get-in-touch {
+    background-image: url(../images/bg-fun-facts.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.get-in-touch .cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-control {padding: 0.600rem .75rem;}
+.get-in-touch .btn-warning {font-size: 18px;}
+.get-in-touch small {letter-spacing: 2px;}
+/************* GET IN TOUCH **********/
+.footer {padding-top: 50px;padding-bottom: 50px;}
+.feet {font-size: 22px;}
+
+
+
+
+
+
+
+
+
+
+
+
